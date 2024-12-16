@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* movies.css */
+
+/* Center content in the header section */
+.header-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* Style for Add Movie Button */
+.add-movie-btn {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-movie-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the Movie Cards */
+.card-container {
+  margin-top: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Style for the Card Image */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Style for the Movie Title */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #333;
+}
+
+/* Style for the Movie Details Button */
+.card-body .btn-primary {
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.card-body .btn-primary:hover {
+  background-color: #218838;
+}
+
+/* Loading and No Movies Found */
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.no-movies {
+  text-align: center;
+  font-size: 18px;
+  color: #dc3545;
+}
+
+
